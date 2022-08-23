@@ -1,5 +1,5 @@
 {% set name = "cdt" %}
-{% set version = "0.5.23" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 469ee22222b4b68639505ba7841d9d250786d15e49a84d634037c8e7ce6138f4
+  sha256: cecfb6390440311d0cb7e5446e97f9eb3e3b7d90d9b10d3b4cbbabc2d4c23dba
 
 build:
   noarch: python
@@ -54,7 +54,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "A Toolbox for causal graph inference"
+  summary: A Toolbox for causal graph inference
   doc_url: https://fentechsolutions.github.io/CausalDiscoveryToolbox/html/index.html
   dev_url: https://github.com/FenTechSolutions/CausalDiscoveryToolbox
 
